@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/username_res"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:id="@+id/textView19"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digestion Type"
+        android:id="@+id/textView20"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/username_res"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:id="@+id/textView21"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="100dp"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/presentVdigestionType"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/presentPdigestionType"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/presentKdigestionType"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="250dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lifetime"
+        android:id="@+id/textView22"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/lifetimeVdigestionType"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/lifetimePdigestionType"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="150dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/lifetimeKdigestionType"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="250dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/Nextbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/lifetimeKdigestionType"
+        android:layout_toEndOf="@+id/lifetimeKdigestionType" />
+</RelativeLayout>
